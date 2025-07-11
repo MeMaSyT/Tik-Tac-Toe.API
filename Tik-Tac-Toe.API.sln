@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tik-Tac-Toe.API", "Tik-Tac-Toe.API\Tik-Tac-Toe.API.csproj", "{355327FB-B421-43ED-A7F1-8F7A30E55F22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tik-Tac-Toe.Core", "Tik-Tac-Toe.Core\Tik-Tac-Toe.Core.csproj", "{8C07A800-38A7-4521-AA0C-7E4A82FEAF52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tik-Tac-Toe.DataAccess", "Tik-Tac-Toe.DataAccess\Tik-Tac-Toe.DataAccess.csproj", "{7A169508-3030-4DC0-9B2E-CA0C6B62785D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tik-Tac-Toe.Buisnes", "Tik-Tac-Toe.Buisnes\Tik-Tac-Toe.Buisnes.csproj", "{70ADB944-7CB0-4538-9901-0DB55F42DC42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{355327FB-B421-43ED-A7F1-8F7A30E55F22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{355327FB-B421-43ED-A7F1-8F7A30E55F22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{355327FB-B421-43ED-A7F1-8F7A30E55F22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{355327FB-B421-43ED-A7F1-8F7A30E55F22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C07A800-38A7-4521-AA0C-7E4A82FEAF52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C07A800-38A7-4521-AA0C-7E4A82FEAF52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C07A800-38A7-4521-AA0C-7E4A82FEAF52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C07A800-38A7-4521-AA0C-7E4A82FEAF52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A169508-3030-4DC0-9B2E-CA0C6B62785D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A169508-3030-4DC0-9B2E-CA0C6B62785D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A169508-3030-4DC0-9B2E-CA0C6B62785D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A169508-3030-4DC0-9B2E-CA0C6B62785D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70ADB944-7CB0-4538-9901-0DB55F42DC42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70ADB944-7CB0-4538-9901-0DB55F42DC42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70ADB944-7CB0-4538-9901-0DB55F42DC42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70ADB944-7CB0-4538-9901-0DB55F42DC42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {531AD12E-DA27-470E-B404-759C6240E2BB}
+	EndGlobalSection
+EndGlobal
