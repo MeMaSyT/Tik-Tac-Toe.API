@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Tik_Tac_Toe.Buisnes;
 using Tik_Tac_Toe.Buisnes.Services;
@@ -13,6 +14,8 @@ namespace Tik_Tac_Toe.API
         {
             var builder = WebApplication.CreateBuilder(args);
             builder.Configuration.AddEnvironmentVariables();
+            builder.Services.AddEndpointsApiExplorer();
+            builder.Services.AddSwaggerGen();
 
             builder.Services.AddControllers();
             //Repositories
@@ -29,6 +32,8 @@ namespace Tik_Tac_Toe.API
 
             var app = builder.Build();
 
+            app.UseSwagger();
+            app.UseSwaggerUI();
             app.UseHttpsRedirection();
 
             app.MapGet("/health", () => Results.Ok());

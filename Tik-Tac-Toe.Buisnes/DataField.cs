@@ -6,15 +6,13 @@ namespace Tik_Tac_Toe.Buisnes
     {
         public DataField(IConfiguration configuration)
         {
-            try
-            {
-                dataFieldSize = int.Parse(configuration.GetSection("GameSettings")["GameFieldSize"]);
-                comboToWin = int.Parse(configuration.GetSection("GameSettings")["ComboToWin"]);
+            var config_dataFieldSize = configuration.GetSection("GameSettings")["GameFieldSize"];
+            var config_comboToWin = configuration.GetSection("GameSettings")["ComboToWin"];
+            if (config_dataFieldSize != "${GAME_FIELD_SIZE}" && config_comboToWin != "${GAME_WIN_COMBO}") {
+                dataFieldSize = int.Parse(config_dataFieldSize);
+                comboToWin = int.Parse(config_comboToWin);
             }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
+
             Console.WriteLine("dataFieldSize = " + dataFieldSize);
             Console.WriteLine("comboToWin = " + comboToWin);
         }
